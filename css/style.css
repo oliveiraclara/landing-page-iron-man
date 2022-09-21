@@ -12,7 +12,7 @@ body{
         "header" 
         "main" 
         "footer";
-    grid-template-rows: 100px 1fr 100px;
+    grid-template-areas: 100px 1fr 100px;
 }
 header{
     grid-area: header;
@@ -24,18 +24,20 @@ header{
     gap: 35px;
     align-items: center;
     font-family: 'Poppins', sans-serif; 
-    background-color: aquamarine;
 }
 .menuCabecalho{
-    padding-left: 214px;
+    padding-left: 400px;
 }
 main{
     grid-area: main;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     grid-template-areas: 
-    "social description personagem nome";
+    "social description personagem";
     padding-left: 150px;
+    grid-template-columns: 50px 1fr 48px;
+    padding: 0 100px;
 }
 .social{
     grid-area: social;
