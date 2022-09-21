@@ -1,0 +1,31 @@
+.description{
+    grid-area: description;
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    padding-top: 136px;
+}
+.title{
+    font-weight: 400;
+    font-size: 15.71px;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.subtitle{
+    font-family: Gill Sans MT;
+    color: #8A2D5E;
+    font-weight: 700;
+    font-size:80px;
+}
+.nomePersonagem{
+    padding-top: 32px;
+    font-weight: 600;
+    font-size: 23px;
+    font-family: 'Nunito', sans-serif;
+}
+.caracteristicas{
+    font-weight: 400;
+    font-size: 15.71px;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
