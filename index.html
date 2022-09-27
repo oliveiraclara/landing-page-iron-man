@@ -2,62 +2,60 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <title>Iron Man</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/description.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Iron Man</title>
 </head>
 <body>
+    <nav>
+        <img src="./img/github.png" alt="acesso ao git hub">
+        <img src="./img/figma_icon.png" alt="acesso ao figma">
+        <img src="./img/twitter.png" alt="acesso ao perfil do twitter">
+        <img src="./img/instagram_icon.png" alt="acesso a página do instagram">
+    </nav>
     <header>
-        <img class= logo src="./img/marvel-logo.png">
-    <a class="menuCabecalho">
-        <a href="#" class="menu-item">Home</a>
-        <a href="#" class="menu-item">Avengers</a>
-        <a href="#" class="menu-item">Celestials</a>
-        <a href="#" class="menu-item">About</a>
-    </a>
-    <div class="atalhos">
-    <img class= retangulo src="img/rectangle.png">
-    <img class= usuario src="img/usuario.png">
-    </div>
+        <img src="./img/marvel-logo.png" alt="logo da marvel studios">
+        <div class="menu">
+            <a href="">Home</a>
+            <a href="">Avengers</a>
+            <a href="">Celestials</a>
+            <a href="">About</a>
+        </div>
+        <div class="icon__user">
+            <img src="./img/lupa.png" alt="lupa para pesquisa">
+            <img src="./img/rectangle.png" alt="retangulo">
+            <img src="./img/usuario.png" alt="acesso ao perfil do usuario">
+        </div>
     </header>
     <main>
-        <div class="description">
-    <h1 class= "title">Marvel Character</h1>
-    <h2 class= "subtitle">IRON MAN</h2>
-    <h3 class= "nomePersonagem">Tony Stark</h3>
-    <h3 class= "caracteristicas">Iron Man is a superhero appearing in American comic books published by Marvel Comics. Each of Tony’s suits provides a full range of telecommunications, sophisticated artificial intelligence capable of piloting Tony to safety should he be rendered unconscious.</h3>
-    <a href= "#" class="action">
-        Are you a Marvel fan?
-    </a>
-    </div>
-    <div class="personagem">
-    <img class= "homemDeFerro" src="img/homem-de-ferro.png">
-    </div>
-    <div class="social">
-        <li>
-            <a href="" class="social-icon" aria-label="Acessa o git hub">
-                <i class="fa-brands fa-github"></i>
-            </a>
-            </li>
-            <li>
-            <a href="" class="social-icon" aria-label= "Acessa o perfil do twitter">
-                
-            </a>
-            </li>
-            <li>
-             <a href="" class="social-icon" aria-label="Acessa o perfil do Facebook">
-                <i class="fa-brands fa-facebook-f"></i>
-            </a>
-            </li>
-    </div>
+        <article>
+            <div class="description">
+            <h1 class = "titulo">Marvel Character</h1>
+            <h2 class="nomeDoHeroi">IRON MAN</h2>
+            <h4 class="nomeDoPersonagem">Tony Stark</h4>
+            <h3 class="descriçao">Iron Man is a superhero appearing in American comic books published by Marvel Comics. Each of Tony’s suits provides a full range of telecommunications, sophisticated artificial intelligence capable of piloting Tony to safety should he be rendered unconscious.</h3>
+                <a href="" class="action">
+                    <p class="botao">Are you a Marvel fan?</p>
+                </a>
+        </div>
+        </article>
+        <aside> 
+            <img class="fotoPersonagem" src="./img/homem-de-ferro.png" alt="">
+            <span class="nomeDeitado">iron man</span>
+        </aside>
     </main>
-    <footer>footer</footer>
+    <footer>
+        <a href="">Next Marvel Character</a>
+    </footer>
 </body>
 </html>
