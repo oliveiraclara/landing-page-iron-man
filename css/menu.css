@@ -5,6 +5,10 @@
     flex-direction: row;
     gap: 35px;
 }
+.menu a:hover{
+    border-bottom: solid  #8A2D5E;
+    transition: all ease-in .1S;
+}
 .icon__user{
     padding-left: 650px;
     display: flex;
