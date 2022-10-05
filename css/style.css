@@ -60,7 +60,8 @@ aside{
 .nomeDeitado{
     color:#8a2d5f7e;
     font-family: 'Poppins', sans-serif;
-    font-size: 140px;
+    padding-top: 540px;
+    font-size: 130px;
     font-weight: 700;
     line-height: 210px;
     letter-spacing: 0.06em;
@@ -71,7 +72,7 @@ footer{
     grid-area: footer;
     display: flex;
     justify-content: flex-end;
-    padding-right: 70px;
+    padding-right: 150px;
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
     font-size: 23px;

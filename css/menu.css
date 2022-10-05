@@ -10,7 +10,7 @@
     transition: all ease-in .1S;
 }
 .icon__user{
-    padding-left: 650px;
+    padding-left: 620px;
     display: flex;
     gap: 10px;
     align-items: flex-end;
