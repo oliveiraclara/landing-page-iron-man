@@ -71,8 +71,10 @@ aside{
 footer{
     grid-area: footer;
     display: flex;
+    align-items: flex-start;
+    justify-content: center;
     justify-content: flex-end;
-    padding-right: 150px;
+    padding-right: 100px;
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
     font-size: 23px;
